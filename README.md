@@ -1,28 +1,49 @@
-# Project 6
-## Mobile First Navigation Using Flex and JS
+# Project 4
+## Mobile First
 
-The goal of this assignment is to add page navigation to your About Me page. To do this, your are going to merge code from the demo with your existing code. You will have to be careful that all links (including the links in the head tag) are there and work without error. You will also make sure that the merge is done without creating any code errors and without losing any content.
+**You are expected to read chapter 7 of your text as preparation for this assignment. Also you must use our CSS formatting rules from the CISY 225 Style Guide.**
 
-Once the merge is complete, you will be checking your About Me page with real mobile devices. To do this, make sure that the Settings page in your repo is set to use your Master as the GH Pages. See the below as an example.
+**You Must Have a Perfect Project 3 Repo. Make all changes to P3 before starting this project. Your grade depends on this. If you need help, ask me for help.**
 
-![GH Pages](https://github.com/cynthiateeters/nav-demo/blob/master/readme-src/GitHubPagesMasterSource.png)
+You are going to have to clone the files from Project 3 into this repo.  Then you'll edit index.html and styles.css to make the required changes. You will also be making new sizes of your three P3 images and your "about me" picture to use in the picture element (HTML5 text 7.8).  
+  
+See [Built-in Browser Support for Responsive Images](https://www.html5rocks.com/en/tutorials/responsive/picture-element/ "Built-in Browser Support for Responsive Images")
 
 
-You are going to have to download and add the files from your Project 5 into this repo. Then you'll edit your index.html and styles.css to make the required changes.  
+1. Download the clone of your completed and _perfect_ Project 3 repo.
+2. Make sure that the old README.md file does not overwrite this one. 
+3. Zero out everything in styles.css (make it an empty file).
+4. Upload the files and folders into this repo to make your starter code. 
+5. Find the original 3 pictures that you used for P3 along with your personal "about me" image.
+6. Resize those to these specifications. You will end up with 16 files.
 
-1. Download and unzip this nav-demo repo.
-2. In this nav-demo repo, rename index.html to index-demo.html. Also I suggest you delete my photo image files as they are no good for your P6 and they take up a lot of room.
-2. Download and unzip your completed and _perfect_ Project 5 repo. Merge the two repos into one.
-3. Make sure that the old P5 README.md file does not overwrite the P6 README.md.
-4. Look carefully at index-demo.html and index-shell.html to figure out how you are going to merge the navigation code into your index.html.
-5. Once you have it planned out, cut-n-paste between files to make your About Me have navigation. 
-6. The CSS files for the navigation is contained in the file css/nav-style.css. Leave it there and link to it in the head tag. Below that link, have a link to your styles.css file.
-7. Validate and beautify. REPEATEDLY!
-8. Make sure you have the master branch as the source to the public GH Pages (see above). Note that somethines it takes a few moments to get GH Pages synced to your repo when you are making changes.
-9. Test the public link from two different mobile devices and do screen grabs.
-10. Add those screen grab pictures to the folder called readme-src in this repo.
-11. Edit this repo and add the images to the bottom of this page so that they display like the GH Pages image you see above.
+| width  | filename addition |
+| ------------- | ------------- |
+| 320px  | -xsmall  |
+| 640px  | -small  |
+| 960px  | -med  |
+| 1024px  | -lrg  |
 
-**You are expected to do the Week 9 reading as preparation for this assignment. Also you must use our CSS formatting rules from the CISY 225 Style Guide.**
 
-**You Must Have a Perfect Project 5 Repo. Make all changes to P5 before starting this project. Your grade depends on this. If you need help, ask me for help.**
+7. Make sure these 16 pictures are in the images folder.
+8. In the index.html file, for each of your three images and your "about me" image, replace the plain img element with a picture element that is properly set up for your images.
+9. Edit the logo-1913689.svg file using Brackets and change line 12 to, 
+
+```
+<svg width="52px" enable-background="new 0 0 520 520" version="1.1" viewBox="0 0 520 520" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+```
+
+and save, overwriting the logo-1913689.svg file.
+
+10. Edit your empty styles.css file.
+11. In the CSS, specify on the body element a text-family property with one Google font and one system font. You must choose a serif Google font and use a serif system font as backup. Do not forget to replace the link in the head of your index.html file.
+  Use this link https://fonts.google.com/?category=Serif to find a serif font.     
+ 
+12. The CSS for each image should make the image have a max-width of 100%.
+13. Upload to the P4 repo all of your edited files, making sure the pictures remain in the images folder on upload. 
+14. Make sure your code passes the CISY 225 Styleguide. **If the code violates the styleguide, that is an immediate -2 points off on this assignment.**
+14. Download a clone of your repo to a different spot and do a visual check to make sure everything is good. **If your repo clone does not pass a visual inspection, that is an immediate -3 points off on this assignment.**
+15. Validate your html. **If your html does not pass validation with no errors, that is an immediate -3 points this assignment.**
+16. Validate your CSS.  **If your CSS does not pass validation, that is an immediate -3 points on this assignment.**
+
+As you can see, I am getting harder with the grading on this assignment. Pay attention to what you are doing. Make sure you spend as much time testing and validating as you do writing the code.
