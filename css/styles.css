@@ -23,6 +23,7 @@ textarea {
 	box-sizing: border-box;
 }
 
-textarea:focus,input:focus {
+textarea:focus,
+input:focus {
 	background-color: azure;
 }
