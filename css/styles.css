@@ -1,0 +1,28 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+legend {
+	font-size: 1.2rem;
+}
+
+input {
+	box-sizing: border-box;
+}
+
+button {
+	border: 1.3px solid black;
+	font-size: 1.1rem;
+}
+
+textarea {
+	box-sizing: border-box;
+}
+
+textarea:focus,input:focus {
+	background-color: azure;
+}
